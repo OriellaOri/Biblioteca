@@ -6,10 +6,15 @@
     <title>Aggiugni Libro</title>
 </head>
 <body>
+
+    <header>
+        <img src="https://i1.wp.com/bestcreativity.com/blog/wp-content/uploads/2016/06/library-logo-02.png?w=325&ssl=1" width="50" height="50" />
+    </header>
+
     <!-- barra di navigazione -->
     <nav>
         <a href="Homepage.html">Home</a>
-         &nbsp; 
+        &nbsp;
         <a href="NewLibro.html">Aggiungi Libro</a>
     </nav>
 
@@ -17,21 +22,19 @@
     <div>
         &nbsp;
         <form>
-            Titolo
+            <label>Titolo</label>
             <input type="text" required="required" placeholder="Inserisci titolo libro " />
 
             <br /> <br />
 
-            Autore
+            <label>Autore</label>
             <input type="text" required="required" placeholder="Inserisci autore " />
 
             <br /> <br />
 
-            Disponibilità
-            <select>
-                <option>Si</option>
-                <option>No</option>
-            </select>
+            <label>Disponibilità</label>
+            <label><input type="radio" value="1" name="disp" />Si</label>
+            <label><input type="radio" value="2" name="disp" />Nome</label>
 
             <br /> <br />
 
