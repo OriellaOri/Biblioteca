@@ -4,11 +4,17 @@
 <head>
     <meta charset="utf-8" />
     <title>Aggiugni Libro</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- aggiunta font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <img src="https://i1.wp.com/bestcreativity.com/blog/wp-content/uploads/2016/06/library-logo-02.png?w=325&ssl=1" width="50" height="50" />
+        <img src="https://i1.wp.com/bestcreativity.com/blog/wp-content/uploads/2016/06/library-logo-02.png?w=325&ssl=1" width="150" height="100" />
+        <h1>Aggiungi Nuovo Libro</h1>
     </header>
 
     <!-- barra di navigazione -->
@@ -21,34 +27,35 @@
     </nav>
 
     <!-- form per registrazioe nuovo libro -->
-    <div>
-        &nbsp;
-        <h1>Aggiungi Nuovo Libro</h1>
-        &nbsp;
+    <div class="form">
         <form>
             <label>Titolo</label>
+            <br />
             <input type="text" required="required" placeholder="Inserisci titolo libro " />
 
             <br /> <br />
 
             <label>Autore</label>
+            <br />
             <input type="text" required="required" placeholder="Inserisci autore " />
 
             <br /> <br />
 
             <!-- pattern che acetta solo numeri e devono essere 13 -->
             <label>Codice ISBN</label>
+            <br />
             <input type="text" required="required" pattern="[0-9]{13}" title="Inserire codice numero di 13 cifre" />
 
             <br /> <br />
 
             <label>Disponibilità</label>
+            <br />
             <label><input type="radio" value="1" name="disp" />Si</label>
             <label><input type="radio" value="2" name="disp" />No</label>
 
             <br /> <br />
 
-            <input type="submit" value="Salva" />
+            <input class="bottone" type="submit" value="Salva" />
         </form>
     </div>
 
