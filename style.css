@@ -1,0 +1,55 @@
+﻿body {
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+h1 {
+    display: inline;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    display: flex;
+    align-content: center;
+}
+
+nav {
+    flex-direction: column;
+    margin-left: 1%;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #F89C57;
+}
+
+nav a:link {
+    color: #5DC2D9;
+}
+
+nav a:visited {
+    color: cadetblue;
+}
+
+#tabella {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%; 
+}
+
+#tabella tr:nth-child(even) {
+    background-color: #F89C57;
+}
+
+#tabella tr:nth-child(odd) {
+    background-color: #F0F0F0;
+}
+
+#tabella tbody > tr:hover {
+    background-color: aquamarine;
+}
