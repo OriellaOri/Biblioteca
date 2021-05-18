@@ -70,12 +70,26 @@ label{
     font-weight:bold;
 }
 .bottone {
-    border-radius: 4%;
     background-color: #F89C57;
-    border: 2px solid #F89C57;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
 }
-.bottone:hover {
-    border-radius: 4%;
-    background-color: white;
-    border: 2px solid orange;
-}
+    .bottone:hover {
+        background-color: white;
+        border: 3px solid #F89C57;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+    }
